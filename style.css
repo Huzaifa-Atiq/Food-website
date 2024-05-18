@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 80px;
+    background-color: #e8e5df;
+    display: flex;
+}
+
+#navlogo{
+    display: inline-block;
+    height: 60px;
+    width: 100px;
+    padding-left:20px ;
+    padding-top: 15px;
+    margin-right: -20px;
+    position: absolute;
+}
+
+#logo{
+    background-image: url(logo2.webp);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+a{
+    margin: 35px;
+    color: rgba(236, 130, 8, 0.918);
+    text-decoration: none;
+    font-weight:900;
+    font-size: larger;
+}
+
+#hometag{
+    margin-left: 200px;
+}
+
+.border:hover{
+    color: red;
+    
+}
+
+.search{
+    margin: 35px;
+    width:400px;
+    height:30px;
+    display:flex
+}
+
+.searchbar{
+    width: 500px;
+    height: 30px;
+}
+
+.border1{
+    border: 3px solid transparent;
+}
+
+.border1:hover{
+    border: 3px solid orangered;
+}
+
+button{
+    color: black;
+    background-color: orange;
+}
+
+.foodwallpaper{
+    width: 100%;
+    height: 500px;
+    background-image: url(background\ image.jpg);
+    background-size: cover;
+}
+
+#heading{
+    text-align: center;
+    padding-top: 100px;
+    font-size: xx-large;
+    color: #b3bdb6;
+}
+
+#para{
+    text-align: center;
+    padding-top: 10px;
+    font-size:medium;
+    color: #b3bdb6;
+}
+
+main{
+    background-color: #e8e5df;
+    height: 2300px;
+}
+
+#Categories{
+    height: 40px;
+    width: 200px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxes{
+    height: 420px;
+    width: 280px;
+    background-color: white;
+    margin-top: 45px;
+    margin-left: 150px;
+    display: inline-block;
+    border-radius: 25px;
+    border: 2px solid transparent;
+}
+
+.image{
+    height: 230px;
+    width: 280px;
+    border-radius: 25px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+#image1{
+    background-image: url(biscuit.webp);
+    background-size: cover;
+}
+
+
+.text{
+    text-align: center;
+    height: 190px;
+    width: 280px;
+    display: inline-block;
+}
+
+.para1{
+    display: flex;
+}
+
+.shopsection{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxes:hover{
+    border: 4px solid red;
+}
+
+#image2{
+    background-image: url(fastfood.webp);
+    background-size: cover;
+}
+
+#image3{
+    background-image: url(cake.webp);
+    background-size: cover;
+}
+
+#image4{
+    background-image: url(ramadan.webp);
+    background-size: cover;
+}
+
+#Deals{
+    height: 40px;
+    width: 200px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#deal1{
+    background-image: url(combo\ 1.webp);
+    background-size: cover;
+}
+
+#deal2{
+    background-image: url(combo2.webp);
+    background-size: cover;
+}
+
+#bev1{
+    background-image: url(bev1.webp);
+    background-size: cover;
+}
+#bev2{
+    background-image: url(bev2.webp);
+    background-size: cover;
+}
+
+#bev3{
+    background-image: url(bev3.webp);
+    background-size: cover;
+}
+
+#bevs{
+    height: 40px;
+    width: 200px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr{
+    margin-top: 25px;
+}
+
+footer{
+    background-color: #0b022b;
+    color: white;
+    height: 600px;
+    font-family: arial;
+    text-align: center;
+}
+
+#fothead{
+    padding-top: 40px;
+}
+
+#fothead5{
+    font-size: larger;
+}
+
+#bgimage1{
+    margin-left:15px;
+}
+
+a{
+    transition: all ease-out 0.7s;
+}
+
